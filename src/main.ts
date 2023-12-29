@@ -1,5 +1,11 @@
+// core 
 import { createApp } from 'vue'
-import './style.css'
+import ElementPlus from 'element-plus'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+// css
+import '@/assets/tool.css'
+import './global-style.css'
+import 'element-plus/dist/index.css'
+
+createApp(App).use(ElementPlus).mount('#app')
